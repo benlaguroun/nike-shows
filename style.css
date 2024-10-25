@@ -1,0 +1,127 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+/* Header Section */
+
+.header-section {
+  margin-top: 20px;
+}
+header h1 {
+  color: #ff4500;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* CTA Button */
+.cta-section {
+  margin: 20px 0;
+}
+
+.cta-button {
+  background-color: #ff4500;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e63c00;
+}
+
+/* Carousel Section */
+.carousel-section {
+  margin: 30px 0;
+}
+
+.carousel-section h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.carousel-item {
+  flex: 0 0 80%;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.carousel-item p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.carousel-item:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Mobile Styling */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  .cta-button {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+
+  .carousel-item {
+    flex: 0 0 90%;
+  }
+}
